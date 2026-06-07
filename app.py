@@ -1,6 +1,6 @@
 import streamlit as st
 import requests as rq
-s_url=st.secrets("s_url")
+s_url=""
 weather_tab,budget_tab,places_tab=st.tabs(["Weather","Budget","Famous Places"])
 
 with weather_tab:
