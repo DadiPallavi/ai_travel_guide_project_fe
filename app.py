@@ -64,8 +64,6 @@ with places_tab:
         "question": f_question
     }
 )
-        obj=res.json()
-        st.success(
-    obj["messages"][-1]["content"]
-)
+        st.write("Status Code:", res.status_code)
+st.write("Response Text:", res.text)
 
