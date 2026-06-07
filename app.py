@@ -65,5 +65,5 @@ with places_tab:
     }
 )
         st.write("Status Code:", res.status_code)
-st.write("Response Text:", res.text)
+        st.write("Response Text:", res.text)
 
